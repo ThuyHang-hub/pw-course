@@ -28,8 +28,6 @@ test('Register successful', async ({ page }) => {
   await page.locator("//select[@id='country']").click();
   
   // Select Country:
-  //await page.locator("//option[@value='canada']").hover();
-  //await page.locator("//option[@value='canada']").check();
   await page.locator("//select[@id='country']").selectOption({ value: "canada" });
 
   
