@@ -39,7 +39,6 @@ function getTopStudent(threshold) {
         if (students[i].score >= threshold) {
             console.log("chúc mừng", students[i].name, "đã nằm trong top học sinh");
         };
-
     };
 };
 getTopStudent(9);
@@ -53,5 +52,5 @@ function calculateInterest(principal,rate,years) {
     let total = a + a * b * c / 100;
     console.log("Tổng tài sản của bạn sau", c, "năm gửi tiết kiệm", a, "đồng, với lãi suất", b + "% là:", total);
 };
-calculateInterest(1000000,0.6,6);
+calculateInterest(1000000,6,8);
 

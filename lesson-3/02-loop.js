@@ -20,7 +20,7 @@ for (let j = 2; j <= 9; j++) {
 console.log("Bài 3:");
 let oddarr = [];
 for (let i = 1; i <= 99; i++) {
-    if (i % 2 == 1) {
+    if (i % 2 === 1) {
         oddarr.push(i);
     }
 };
